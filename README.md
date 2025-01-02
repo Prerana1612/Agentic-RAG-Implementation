@@ -41,23 +41,23 @@ __Project Structure__
 
 ├── data   # Script to load, preprocess, and embed documents
 
-│   ├── doc1.txt  #sample document 1
+    │   ├── doc1.txt  #sample document 1
 
-│   ├── doc2.txt  #sample document 2
+    │   ├── doc2.txt  #sample document 2
 
 ├── src                   # Source code for the project
 
-│   ├── document_ingestion.py  # Script to load, preprocess, and embed documents
+    │   ├── document_ingestion.py  # Script to load, preprocess, and embed documents
 
-│   ├── vector_storage.py      # Script to store embeddings in FAISS index
+    │   ├── vector_storage.py      # Script to store embeddings in FAISS index
 
-│   ├── rag_agent.py          # Main RAG agent script
+    │   ├── rag_agent.py          # Main RAG agent script
 
-│   ├── reasoning_agent.py    # Script for chain-of-thought reasoning
+    │   ├── reasoning_agent.py    # Script for chain-of-thought reasoning
 
-│   ├── chain_of_thought.py   # Chain-of-thought processing and response generation
+    │   ├── chain_of_thought.py   # Chain-of-thought processing and response generation
 
-│   └── test_rag.py           # Test script for validating the agent's functionality
+    │   └── test_rag.py           # Test script for validating the agent's functionality
 
 ├── requirements.txt         # Python dependencies
 
