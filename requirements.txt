@@ -1,0 +1,8 @@
+numpy
+pandas
+langchain
+openai
+transformers
+pgvector
+chromadb
+sentence-transformers
